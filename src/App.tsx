@@ -2,7 +2,11 @@ import React from 'react';
 import { StyleSheet, View, Text } from 'react-native';
 
 const App: React.FC = () => (
-  <><View style={styles.wrapper}><Text>Hello myApp</Text></View></>
+  <>
+    <View style={styles.wrapper}>
+      <Text>Hello myApp</Text>
+    </View>
+  </>
 );
 
 const styles = StyleSheet.create({
