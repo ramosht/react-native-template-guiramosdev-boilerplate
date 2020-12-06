@@ -1,19 +1,9 @@
 import React from 'react';
-import {
-  StyleSheet,
-  View,
-  Text
-} from 'react-native';
+import { StyleSheet, View, Text } from 'react-native';
 
-const App = () => {
-  return (
-    <>
-      <View style={styles.wrapper}>
-        <Text>Hello myApp</Text>
-      </View>
-    </>
-  );
-};
+const App: React.FC = () => (
+  <><View style={styles.wrapper}><Text>Hello myApp</Text></View></>
+);
 
 const styles = StyleSheet.create({
   wrapper: {
