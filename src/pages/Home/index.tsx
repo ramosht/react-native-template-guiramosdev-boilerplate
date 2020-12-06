@@ -1,9 +1,8 @@
 import React from 'react';
 
 import { StyleSheet, Text } from 'react-native';
+import theme from '@styles/Theme';
 import * as S from './style';
-
-import theme from '../../styles/Theme';
 
 const Home: React.FC = () => (
   <S.Wrapper>
