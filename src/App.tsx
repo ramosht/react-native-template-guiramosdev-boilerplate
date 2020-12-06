@@ -1,20 +1,7 @@
 import React from 'react';
-import { StyleSheet, View, Text } from 'react-native';
 
-const App: React.FC = () => (
-  <>
-    <View style={styles.wrapper}>
-      <Text>Hello myApp</Text>
-    </View>
-  </>
-);
+import Home from './Home';
 
-const styles = StyleSheet.create({
-  wrapper: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+const App: React.FC = () => <Home />;
 
 export default App;
