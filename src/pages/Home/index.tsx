@@ -2,11 +2,12 @@ import React from 'react';
 
 import { StyleSheet, Text } from 'react-native';
 import theme from '@styles/Theme';
+import appInfo from '../../../app.json';
 import * as S from './style';
 
 const Home: React.FC = () => (
   <S.Wrapper>
-    <Text style={styles.title}>Hello myApp</Text>
+    <Text style={styles.title}>{`Hello ${appInfo.name}`}</Text>
   </S.Wrapper>
 );
 
